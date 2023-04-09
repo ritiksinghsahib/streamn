@@ -42,7 +42,7 @@ with st.sidebar:
     Simply load your PDF and convert it to single-page or multi-page text.
     """)
     st.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"),unsafe_allow_html=True)
-    st.markdown("""    Made by [@Gyanendrabhatt]  """)
+    st.markdown("""    Made by Gyanendrabhatt and group  """)
     
 
 pdf_file = st.file_uploader("Load your PDF", type="pdf")
